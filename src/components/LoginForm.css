@@ -1,0 +1,29 @@
+.text {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    justify-content: center;
+    margin: 20px;
+    text-align: center;
+}
+
+form {
+    background: rgb(146, 183, 205);
+    padding: 20px;
+}
+
+.button {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 5px;
+    padding-inline: 15px;
+    padding-block: 10px;
+}
+
+input {
+    border-radius: 5px;
+    border-color: rgb(0, 24, 25);
+
+}
