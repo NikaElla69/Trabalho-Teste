@@ -7,7 +7,7 @@
     text-align: center;
 }
 
-form {
+.form {
     background: rgb(146, 183, 205);
     padding: 20px;
 }
@@ -20,10 +20,14 @@ form {
     margin: 5px;
     padding-inline: 15px;
     padding-block: 10px;
+
+}
+
+.button:hover {
+    color: rgb(0, 0, 0);
 }
 
 input {
     border-radius: 5px;
     border-color: rgb(0, 24, 25);
-
 }

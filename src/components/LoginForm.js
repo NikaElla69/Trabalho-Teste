@@ -15,16 +15,21 @@ function LoginForm({ onLogin }) {
     };
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form className='form' onSubmit={handleSubmit}>
             <div>
                 <text className='text'>Faça o seu login</text>
+            </div>
+            <div>
+                <label>Nome de Usuário:</label>
+                <input type='text' />
+
             </div>
             <div>
                 <label>Email:</label>
                 <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
             </div>
             <div>
-                <label>Password:</label>
+                <label>Senha:</label>
                 <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} required />
             </div>
             <button type="submit" className='button' >Login</button>
