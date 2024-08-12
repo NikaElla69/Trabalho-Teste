@@ -40,7 +40,7 @@ function App() {
         <LoginForm onLogin={handleLogin} />
       ) : (
         <>
-          <h1>Welcome, {user}</h1>
+          <h1>Bem vindo, {user}</h1>
           <ActivityForm onSave={handleSaveActivity} />
           {!selectedActivity ? (
             <ActivityList
