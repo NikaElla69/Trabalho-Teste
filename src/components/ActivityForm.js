@@ -18,26 +18,26 @@ function ActivityForm({ onSave, activity }) {
     return (
         <form onSubmit={handleSubmit}>
             <div>
-                <label>Title:</label>
+                <label>Título da Atividade:</label>
                 <input type="text" value={title} onChange={(e) => setTitle(e.target.value)} required />
             </div>
             <div>
-                <label>Description:</label>
+                <label>Descrição:</label>
                 <input type="text" value={description} onChange={(e) => setDescription(e.target.value)} required />
             </div>
             <div>
-                <label>Date:</label>
+                <label>Data:</label>
                 <input type="date" value={date} onChange={(e) => setDate(e.target.value)} required />
             </div>
             <div>
-                <label>Priority:</label>
+                <label>Prioridade:</label>
                 <select value={priority} onChange={(e) => setPriority(e.target.value)}>
-                    <option value="Low">Low</option>
+                    <option value="Low">Baixo</option>
                     <option value="Normal">Normal</option>
-                    <option value="High">High</option>
+                    <option value="High">Alto</option>
                 </select>
             </div>
-            <button type="submit">Save Activity</button>
+            <button className='button' type="submit">Salvar Atividade</button>
         </form>
     );
 }
