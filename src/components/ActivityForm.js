@@ -32,9 +32,9 @@ function ActivityForm({ onSave, activity }) {
             <div>
                 <label>Prioridade:</label>
                 <select value={priority} onChange={(e) => setPriority(e.target.value)}>
-                    <option value="Low">Baixo</option>
+                    <option value="Baixo">Baixo</option>
                     <option value="Normal">Normal</option>
-                    <option value="High">Alto</option>
+                    <option value="Alto">Alto</option>
                 </select>
             </div>
             <button className='button' type="submit">Salvar Atividade</button>
