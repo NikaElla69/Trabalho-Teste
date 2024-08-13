@@ -1,9 +1,10 @@
 import React from 'react';
+import './ActivityList.css';
 
 function ActivityList({ activities, onSelect, onToggle, onDelete }) {
     return (
         <div>
-            <h2>Activity List</h2>
+            <h2>Lista das Atividades</h2>
             <ul>
                 {activities.map((activity, index) => (
                     <li key={index}>
@@ -11,9 +12,9 @@ function ActivityList({ activities, onSelect, onToggle, onDelete }) {
                         <p>{activity.description}</p>
                         <p>{activity.date}</p>
                         <p>{activity.priority}</p>
-                        <button onClick={() => onSelect(activity)}>Details</button>
-                        <button onClick={() => onToggle(activity)}>{activity.completed ? 'Mark as Not Done' : 'Mark as Done'}</button>
-                        <button onClick={() => onDelete(activity)}>Delete</button>
+                        <button className='buttonDetails' onClick={() => onSelect(activity)}>Detalhes</button>
+                        <button className='buttonDone' onClick={() => onToggle(activity)}>{activity.completed ? 'Marcar como não concluída' : 'Marcar como concluída'}</button>
+                        <button className='buttonDelete' onClick={() => onDelete(activity)}>Deletar</button>
                     </li>
                 ))}
             </ul>

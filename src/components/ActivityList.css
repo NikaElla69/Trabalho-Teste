@@ -1,0 +1,61 @@
+.buttonDetails {
+    background: rgb(218, 196, 249);
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 2px;
+    padding-inline: 10px;
+    padding-block: 7px;
+}
+
+.buttonDetails:hover {
+    background: rgb(216, 255, 98);
+    font-weight: bold;
+
+}
+
+.buttonDone {
+    background: rgb(98, 255, 239);
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 2px;
+    padding-inline: 10px;
+    padding-block: 7px;
+}
+
+.buttonDone:hover {
+    background: rgb(111, 255, 0);
+    font-weight: bold;
+
+}
+
+.buttonDelete {
+    background: rgb(118, 118, 118);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 2px;
+    padding-inline: 10px;
+    padding-block: 7px;
+}
+
+.buttonDelete:hover {
+    background: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+.buttonBack {
+    background: rgb(220, 220, 220);
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 2px;
+    padding-inline: 10px;
+    padding-block: 7px;
+}
+
+.buttonBack:hover {
+    background: rgb(4, 255, 0);
+    font-weight: bold;
+}

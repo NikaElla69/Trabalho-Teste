@@ -10,6 +10,7 @@
 .form {
     background: rgb(146, 183, 205);
     padding: 20px;
+    border-radius: 10px;
 }
 
 .button {
